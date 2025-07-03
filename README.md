@@ -1,1 +1,1 @@
-## Learning the Html Fundementals
+## Learning the HTML Fundementals
