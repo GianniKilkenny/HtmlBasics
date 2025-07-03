@@ -1,0 +1,137 @@
+<!-- declares the document of HTML 5 -->
+<!DOCTYPE html>
+
+<!-- (html) This is the root element -->
+<html lang="en">
+  <!-- (Head) Includes meta data such as the title -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="A fully structued html page" />
+    <title>Gianni's Complete Website</title>
+  </head>
+
+  <!-- (Body) holds all visible content-->
+  <body>
+    <header>
+      <h1>Greatest MMA Fighter to Ever Live</h1>
+      <p>These fighter have carefully analyzed by the following criterias</p>
+    </header>
+    <section>
+      <h2>Criteria for GOAT Status</h2>
+      <ul>
+        <li>Title Defenses</li>
+        <li>Competition</li>
+        <li>Longevity</li>
+        <li>Skills</li>
+        <li>Impact</li>
+      </ul>
+    </section>
+    <section>
+      <h2>
+        Goat Score
+        <table border="10">
+          <tr>
+            <th>Name</th>
+            <th>Title Defenses</th>
+            <th>Striking</th>
+            <th>Competition</th>
+            <th>Longevity</th>
+            <th>Skills</th>
+            <th>Impact</th>
+            <th>Overall</th>
+          </tr>
+          <tr>
+            <td>Jon Jones</td>
+            <td>12</td>
+            <td>95</td>
+            <td>95</td>
+            <td>100</td>
+            <td>97</td>
+            <td>99</td>
+            <td>99</td>
+          </tr>
+          <tr>
+            <td>Mighty Mouse</td>
+            <td>11</td>
+            <td>94</td>
+            <td>93</td>
+            <td>98</td>
+            <td>100</td>
+            <td>94</td>
+            <td>98</td>
+          </tr>
+
+          <tr>
+            <td>GSP</td>
+            <td>9</td>
+            <td>97</td>
+            <td>95</td>
+            <td>95</td>
+            <td>98</td>
+            <td>96</td>
+            <td>98</td>
+          </tr>
+          <tr>
+            <td>"Prime" Conor Megregor</td>
+            <td>0</td>
+            <td>100</td>
+            <td>97</td>
+            <td>85</td>
+            <td>94</td>
+            <td>100</td>
+            <td>96</td>
+          </tr>
+        </table>
+      </h2>
+    </section>
+    <section>
+      <h2>Who is Your Goat?</h2>
+      <select id="Fighter">
+        Select One
+        <option value="">Fighter</option>
+        <option value="Jon Jones">Jon Jones</option>
+        <option value="Mighty Mouse">Mighty Mouse</option>
+        <option value="GSP">GSP</option>
+      </select>
+      <br />
+      <br />
+
+      <section>
+        <h3>Sign up for more UFC NewsLetters</h3>
+      </section>
+      <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" required />
+        <br />
+
+        <label for="email">Email:</label>
+        <input type="text" id="email" required />
+        <br />
+
+        <label for="password">Password:</label>
+        <input type="text" id="password" />
+        <br />
+
+        <label for="Favorite Fighter">Favorite Fighter:</label>
+        <input type="text" id="Favorite Fighter" />
+
+        <label for="Title Defenses">Title Defenses:</label>
+        <input type="number" id="Title Defenses" />
+        <br />
+        <select id="Country">
+          <option value="">Country</option>
+          <option value="USA">USA</option>
+          <option value="Japan">Japan</option>
+          <option value="Russia">Russia</option>
+        </select>
+        <br />
+        <br />
+
+        <button type="submit">Sign up</button>
+      </form>
+    </section>
+    <footer>
+      <p>Created by *Gianni Kilkenny* - 2025</p>
+    </footer>
+  </body>
+</html>
